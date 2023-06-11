@@ -60,7 +60,7 @@ h1 {
     #heart {
         grid-column: span 12 !important;
         /* padding-bottom: 1rem !important; */
-        min-height: 100px;
+        /* min-height: 100px; */
     }
     #info .one, #info .two {
         grid-column: span 12 !important;
@@ -89,9 +89,13 @@ h1 {
     font-size: 22px;
 }
 #heart {
-    grid-column: span 2;
+    /* grid-column: span 2;
     display: grid;
-    grid-template-rows: 2;
+    grid-template-rows: 2; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     font-size: 44px;
     color: #ef1909;
     align-self: center;
